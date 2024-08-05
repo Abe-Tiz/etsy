@@ -1,4 +1,4 @@
-j
+j;
 import React, { useState } from "react";
 import { FaRegHeart } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
@@ -17,6 +17,8 @@ const Navbar = () => {
 
   return (
     <div className="navbar flex justify-between bg-base-100 shadow-md border-b-4 border-gray-800 mb-6">
+      
+      {/* logo */}
       <div>
         <a className="btn btn-ghost text-xl text-orange-500">Etsy</a>
         <div className="flex-none">
@@ -38,6 +40,8 @@ const Navbar = () => {
         </div>
         <a className="btn btn-ghost text-xl">Category</a>
       </div>
+
+      {/* search  */}
       <div className="form-control flex-none relative ">
         <input
           type="text"
@@ -58,6 +62,8 @@ const Navbar = () => {
           <CiSearch />
         </span>
       </div>
+
+      {/* icons */}
       <div className="flex-none gap-2">
         <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">

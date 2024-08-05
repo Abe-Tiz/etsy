@@ -14,7 +14,7 @@ const Card = () => {
   ];
 
   return (
-    <>
+    <div>
       {products.map((product) => {
         <div
           key={product.id}
@@ -40,7 +40,7 @@ const Card = () => {
           </div>
         </div>;
       })}
-    </>
+    </div>
   );
 };
 
