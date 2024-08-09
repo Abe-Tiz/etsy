@@ -1,8 +1,8 @@
 // src/App.js
 import React from "react";
-import Navbar from "./components/Navbar";
-import Card from "./components/Card";
-import Product from "./components/Product";
+import Navbar from "../etsy1/src/components/Navbar";
+import Card from "../etsy1/src/components/Card";
+import Product from "../etsy1/src/components/Product";
 
 const App = () => {
   return (
